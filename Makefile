@@ -55,7 +55,7 @@ CONFIG_GSPI_HCI = n
 CONFIG_MP_INCLUDED = y
 # Exposes power saving features to the system if the wireless adapter supports them.
 # Say "y" here if unsure.
-CONFIG_POWER_SAVING = y
+CONFIG_POWER_SAVING = n
 # Automatically suspends the wireless adapter during inactivity.
 # Say "n" here if unsure. It may save a small amount of power, while introducing instability.
 CONFIG_USB_AUTOSUSPEND = n
@@ -86,7 +86,7 @@ CONFIG_TDLS = n
 # Compile in monitor-mode support. Say "y" here if unsure.
 # Some userspace applications may complain if the wireless adapter doesn't have this.
 # Used mainly to grab packets from a wireless network.
-CONFIG_WIFI_MONITOR = y
+CONFIG_WIFI_MONITOR = n
 CONFIG_MCC_MODE = n
 CONFIG_APPEND_VENDOR_IE_ENABLE = n
 CONFIG_RTW_NAPI = y
